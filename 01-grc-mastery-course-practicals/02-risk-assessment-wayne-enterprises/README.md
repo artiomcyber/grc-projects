@@ -83,7 +83,7 @@ Once a risk is scored, the organisation must decide what to do with it:
 | 4 | Competitor uses salary data to recruit key staff | Likely (3) | High (3) | **9** | 🔴 HIGH | Brief leadership, review compensation packages, monitor resignation patterns |
 | 5 | Residual risk after compensating control reduces likelihood to 1 | Unlikely (1) | High (3) | **3** | 🟢 LOW | Maintain controls, monitor annually |
 
-📎 [Download Full Risk Assessment (Excel)](https://github.com/artiomcyber/grc-projects/blob/main/02-risk-assessment-wayne-enterprises/Wayne_Enterprises_Risk_Assessment.xlsx?raw=true)
+📎 [Download Full Risk Assessment (Excel)](https://github.com/artiomcyber/grc-projects/blob/main/01-grc-mastery-course-practicals/02-risk-assessment-wayne-enterprises/Wayne%20Enterprises%20Risk%20Assessment%20Practical%20Case.xlsx?raw=true)
 
 ---
 
