@@ -14,7 +14,7 @@
 | File | Description |
 |---|---|
 | `README.md` | Standard breakdown, key changes, requirements, NIST references |
-| [`password-checker.html`](./password-checker.html) | FREE Interactive password compliance checker — runs in any browser, no install, secure |
+| [`FREE-password-checker-NIST.html`](./FREE-password-checker-NIST.html)  | FREE Interactive password compliance checker — runs in any browser, no install, secure |
 
 ---
 
