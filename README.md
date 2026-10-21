@@ -1,52 +1,47 @@
-# 📋 GRC Projects
-### Governance, Risk & Compliance | Practical Work & Lab Exercises
-### by [@artiomcyber](https://github.com/artiomcyber)
+# Governance, Risk & Compliance Portfolio
 
-![GRC](https://img.shields.io/badge/Focus-GRC-2E86AB?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-Growing-brightgreen?style=for-the-badge)
+**Risk assessment · NIST RMF · Audit evidence · Security controls · Identity governance**
 
----
+Practical governance and security-risk exercises, including fictional business scenarios, structured assessments and an interactive password-standard study tool. The work is educational and is not presented as a paid audit or client engagement.
 
-## 👋 About This Repository
+## Projects and evidence
 
-This repository contains my GRC practical work — course exercises, lab scenarios, framework applications, and case studies. It sits alongside my [Forage cybersecurity simulations](https://github.com/artiomcyber/forage-cybersecurity-projects) but focuses specifically on the GRC side of cybersecurity: risk management, compliance frameworks, auditing, and governance.
+| Project | Work completed | Technical record |
+|---|---|---|
+| **01 · CIA Triad — OSCorp** | Mapped confidentiality, integrity and availability to assets and security controls in a training scenario | [CIA Triad exercise](01-grc-mastery-course-practicals/01-cia-triad-oscorp/README.md) |
+| **02 · Risk Assessment — Wayne Enterprises** | Applied a 3×3 likelihood/impact matrix, risk treatment options and prioritization in a fictional business case | [Risk assessment](01-grc-mastery-course-practicals/02-risk-assessment-wayne-enterprises/README.md) |
+| **03 · Cybersecurity Audit — Foresight** | Produced a security-risk/audit deliverable in a GRC Mastery practical exercise | [Risk report (PDF)](01-grc-mastery-course-practicals/03-cyber-security-audit-foresight/risk_report_foresight.pdf) |
+| **04 · NIST Risk Management Framework** | Applied the Prepare → Categorize → Select → Implement → Assess → Authorize → Monitor lifecycle to fictional CivicTrack Analytics | [NIST RMF case study](02-grc-playground/01-RMF-NIST/README.md) |
+| **05 · Password Security Standards** | Studied NIST SP 800-63B Rev. 4 and developed a browser-based password policy checking tool | [Password requirements study](NIST-password-guidelines-2026/README.md) · [HTML checker](NIST-password-guidelines-2026/FREE-password-checker-NIST.html) |
 
-GRC is where I'm building my career focus. These projects document that learning journey — from the basics through to more complex framework applications.
+## Focus: GRC applied to Identity & Access Management
 
----
+These projects support a wider identity-security specialization:
 
-## 📂 Projects
+- **Access governance:** role ownership, least privilege, access certification and segregation-of-duties assessment.
+- **Control assurance:** clearly defined evidence, control owner, acceptance criteria and test result.
+- **Risk treatment:** evaluate likelihood, impact, mitigating controls and residual exposure.
+- **Audit readiness:** document decisions and retain reproducible artifacts rather than rely on unverified compliance claims.
+- **Identity standards:** connect password policy, authentication strength and recovery procedures with business requirements.
 
-| # | Project | Source | Topics | Status |
-|---|---------|--------|--------|--------|
-| 01 | [GRC Mastery Course — Practicals](./01-grc-mastery-course-practicals/) | GRC Mastery Course | CIA Triad, Risk Assessment, 3x3 Risk Matrix | ✅ Completed |
-| 02 | GRC Playground — Mission 01: Build Your First RMF System | GRC Playground | NIST RMF, Categorization, Controls, Authorization | 🔄 In Progress |
+### Review path
 
----
+```mermaid
+flowchart LR
+  Assets["Assets and business context"] --> Risk["Risk analysis"]
+  Risk --> Controls["Control selection"]
+  Controls --> Tests["Implementation and evidence"]
+  Tests --> Review["Audit / residual risk review"]
+```
 
-## 🧠 Skills Being Developed
+The diagram describes the assessment method, **not** a claim of implementation across a real company.
 
-- CIA Triad application to real-world asset scenarios
-- Risk assessment methodology — likelihood × impact scoring
-- Risk treatment decisions — accept, mitigate, transfer, avoid
-- NIST Risk Management Framework (RMF)
-- Security control selection and implementation
-- Audit principles and the three lines of defence model
-- Compliance frameworks and regulatory requirements
+## Evidence and scope
 
----
+Read each project for its scenario, assumptions and results. Fictional organizations and simulated findings are explicitly labeled; templates, standards analysis and code demonstrations should not be confused with completed production audits.
 
-## 🚀 About Me
+## Connected work
 
-**Artsiom** | Aspiring Cybersecurity Professional
+[Microsoft Entra Identity Labs](https://github.com/artiomcyber/Microsoft-Security) · [Cybersecurity simulations](https://github.com/artiomcyber/forage-cybersecurity-projects) · [TryHackMe](https://github.com/artiomcyber/TryHackMe)
 
-I am an aspiring cybersecurity professional holding SC-900 (Microsoft Security, Compliance & Identity Fundamentals) and TryHackMe SEC0 certifications, actively expanding my hands-on experience through industry simulations, labs, and real-world projects. My focus areas include Governance, Risk & Compliance (GRC) and Security Operations (SOC) — working towards a career where I can help organizations build resilient security programs and respond effectively to evolving cyber threats.
-
-- 🐙 GitHub: [@artiomcyber](https://github.com/artiomcyber)
-- 🏅 Certifications: SC-900 | SEC0
-- 🎯 Target Roles: SOC Analyst | GRC Analyst | Security Awareness | Threat Analyst
-
----
-
-*⚠️ All company names and scenarios in this repository are fictional and used for educational purposes only.*
+[← GitHub profile](https://github.com/artiomcyber)
